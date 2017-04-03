@@ -294,17 +294,7 @@
 			"Rev": "723cc1e459b8eea2dea4583200fd60757d40097a"
 		},
 		{
-			"ImportPath": "github.com/influxdb/influxdb/client",
-			"Comment": "v1.2.2",
-			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
-		},
-		{
-			"ImportPath": "github.com/influxdb/influxdb/models",
-			"Comment": "v1.2.2",
-			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
-		},
-		{
-			"ImportPath": "github.com/influxdb/influxdb/pkg/escape",
+			"ImportPath": "github.com/influxdata/influxdb/client",
 			"Comment": "v1.2.2",
 			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
 		},

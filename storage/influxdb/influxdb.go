@@ -25,7 +25,7 @@ import (
 	"github.com/google/cadvisor/storage"
 	"github.com/google/cadvisor/version"
 
-	influxdb "github.com/influxdb/influxdb/client"
+	influxdb "github.com/influxdata/influxdb/client"
 )
 
 func init() {
@@ -340,13 +340,6 @@ func checkResponseForErrors(response *influxdb.Response) error {
 		for _, result := range response.Results {
 			if result.Err != nil {
 				return fmt.Errorf(msg, result.Err)
-			}
-			if result.Series != nil {
-				for _, row := range result.Series {
-					if row.Err != nil {
-						return fmt.Errorf(msg, row.Err)
-					}
-				}
 			}
 		}
 	}

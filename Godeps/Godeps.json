@@ -1,7 +1,7 @@
 {
 	"ImportPath": "github.com/google/cadvisor",
 	"GoVersion": "go1.6",
-	"GodepVersion": "v74",
+	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
 	],
@@ -295,18 +295,18 @@
 		},
 		{
 			"ImportPath": "github.com/influxdb/influxdb/client",
-			"Comment": "v0.9.5.1",
-			"Rev": "9eab56311373ee6f788ae5dfc87e2240038f0eb4"
+			"Comment": "v1.2.2",
+			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
 		},
 		{
 			"ImportPath": "github.com/influxdb/influxdb/models",
-			"Comment": "v0.9.5.1",
-			"Rev": "9eab56311373ee6f788ae5dfc87e2240038f0eb4"
+			"Comment": "v1.2.2",
+			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
 		},
 		{
 			"ImportPath": "github.com/influxdb/influxdb/pkg/escape",
-			"Comment": "v0.9.5.1",
-			"Rev": "9eab56311373ee6f788ae5dfc87e2240038f0eb4"
+			"Comment": "v1.2.2",
+			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
 		},
 		{
 			"ImportPath": "github.com/jmespath/go-jmespath",
@@ -574,6 +574,16 @@
 			"ImportPath": "gopkg.in/olivere/elastic.v2/uritemplates",
 			"Comment": "v2.0.12",
 			"Rev": "3cfe88295d20b6299bd935131fc0fd17316405ad"
+		},
+		{
+			"ImportPath": "github.com/influxdata/influxdb/models",
+			"Comment": "v1.2.2",
+			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
+		},
+		{
+			"ImportPath": "github.com/influxdata/influxdb/pkg/escape",
+			"Comment": "v1.2.2",
+			"Rev": "1bcf3ae74c6b9c4897dab68d513d056277eb24f7"
 		}
 	]
 }

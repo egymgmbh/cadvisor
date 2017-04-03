@@ -286,6 +286,7 @@ func newStorage(
 		URL:       *url,
 		Username:  username,
 		Password:  password,
+		UnsafeSsl: true,
 		UserAgent: fmt.Sprintf("%v/%v", "cAdvisor", version.Info["version"]),
 	}
 	client, err := influxdb.NewClient(*config)
